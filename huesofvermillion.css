@@ -1,3 +1,11 @@
 body {
-  background-color: purple;
+  background-color: #370b6e;
+  width: auto;
+  font-family: Bree Serif;
+}
+
+h1  {
+  font-size: 136px;
+  color: green;
+  text-align: center;
 }
