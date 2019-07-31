@@ -1,11 +1,16 @@
 body {
-  background-color: #370b6e;
+  /*background-color: black;*/
+  /* background-image: url(red0.png); */
   width: auto;
   font-family: Bree Serif;
 }
 
 h1  {
   font-size: 136px;
-  color: green;
+  color: #780a02;
   text-align: center;
+}
+
+.button {
+  margin: 0 50%;
 }
