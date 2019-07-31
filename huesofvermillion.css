@@ -1,17 +1,64 @@
-body {
-  background-color: black;
+html {
+  height: 100%;
+}
+
+  body {
+  /* background-color: black; */
+  background-image: url('images/databg.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+  margin: 0%;
+  height: 100%;
   width: auto;
-  font-family: Bree Serif;
-  background-repeat: no-repeat;
-  background-size: auto;
+  font-family: Kaushan Script, Merienda;
 }
 
 #header1  {
   font-size: 136px;
-  color: #780a02;
+  color: white;
   text-align: center;
+  margin-top: 0;
+  padding-top: 5px;
 }
 
-.button {
-  margin: 0 50%;
+/* making the header text enlarge and change color on hover */
+#header1:hover {
+  color: #e34234;
+  font-size: 146px;
+}
+
+/* setting the navigation class settings for placement and size */
+.navigation {
+  margin: 5px;
+  padding: 5px;
+  width: 50%;
+  height: 150px;
+  display: block;
+  margin-bottom:  20px;
+}
+
+/* setting the sizes of the images for the buttons */
+img {
+  width: 150px;
+  height: 150px;
+}
+
+/* making the images / buttons slightly enlarge on hover */
+img:hover {
+  width: 165px;
+  height: 165px;
+}
+
+/* creating a contract hover effect for the buttons */
+#aboutMe:hover {
+  content: url("images/info-vermilion.png");
+}
+
+#gitHub:hover {
+  content: url("images/octocat-vermilion.png");
+}
+
+#linkedIn:hover {
+  content: url("images/linkedin-vermilion.png")
 }
