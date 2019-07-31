@@ -1,5 +1,5 @@
 // This is defining the colors in the random array
-var colorRand = [ 'black', 'green', 'orange', 'blue'];
+var colorRand = [ 'purple', 'green', 'orange', 'blue'];
 // Function used to change the background to the colorRand array of colors for the background
 function backgroundColor() {
     document.getElementById("header1").style.color = "#780a02";
@@ -14,4 +14,3 @@ function backgroundImg() {
     document.getElementById("bodyChange").style.backgroundImage = bgImg[Math.floor(Math.random() * bgImg.length)];
     document.getElementById("header1").style.color = "white";
 }
-1
