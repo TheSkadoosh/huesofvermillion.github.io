@@ -28,6 +28,10 @@ html {
   font-size: 146px;
 }
 
+#backgroundButton {
+  margin: 0 50%;
+}
+
 /* setting the navigation class settings for placement and size */
 .navigation {
   margin: 5px;
