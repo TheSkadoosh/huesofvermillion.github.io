@@ -16,3 +16,4 @@ var bgImg = [ "url('red0.png')", "url('red1.jpg')", "url('red2.jpg')"];
 function backgroundImg() {
     document.getElementById("bodyChange").style.backgroundImage = bgImg[Math.floor(Math.random() * bgImg.length)];
 }
+1
