@@ -3,9 +3,10 @@ body {
   /* background-image: url(red0.png); */
   width: auto;
   font-family: Bree Serif;
+  background-size: auto;
 }
 
-h1  {
+#header1  {
   font-size: 136px;
   color: #780a02;
   text-align: center;
